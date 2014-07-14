@@ -1,0 +1,35 @@
+@font-face {
+    font-family: PoetsenOne;
+    src: url(PoetsenOne.ttf);
+}
+
+
+body {
+    background: #555555;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+div#main {
+    width: 640px;
+    height: 480px;
+    border: solid 2px #AAAAAA;
+    margin: 50px auto;
+    box-shadow: 4px 4px 8px #000000;
+}
+
+
+div.logo {
+    position: relative;
+    top: -60px;
+    left: 400px;
+    font-family: PoetsenOne;
+    font-size: 96px;
+    color: #55FF55;
+    text-shadow: -2px 0px 0px #00AA00,
+        2px 0px 0px #00AA00,
+        0px -2px 0px #00AA00,
+        0px 2px 0px #00AA00,
+        0px 0px 42px #000000;
+}

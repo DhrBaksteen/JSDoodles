@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<style>
+			body {
+				background-color:	#000000;
+				background-image:	url(witch09.jpg);
+				font:				10px Trebuchet ms;
+				color:				#FFFFFF;
+			}
+		
+			div.floor {
+				position: 			relative;
+				background-color: 	#4A3F22;
+				width: 				100%;
+				height: 			50%;
+				top: 				0px;
+				left: 				0px;
+			}
+			
+			div.ceiling {
+				position: 			relative;
+				background-color:	#333333; 
+				width: 				100%;
+				height: 			50%;
+				top: 				0px;
+				left: 				0px;
+			}
+			
+			div.screen {
+				position:			absolute;
+				overflow:			hidden;
+				border: 			solid 1px #CCCCCC;
+			}
+			
+			.halfscreen {
+				width: 				100%;
+				height: 			100%;
+			}
+		</style>
+		<script type="text/javascript" src="map.js"></script>
+		<script type="text/javascript" src="raycaster.js"></script>
+		<title>JavaScript Raycaster</title>
+	</head>
+	<body onload ="init ();">
+		<div id="screen" class="screen"><div id="ceiling" class="ceiling"><img src="073.png" class="halfscreen"></div><div id="floor" class="floor"></div></div>
+		<span id="debug"></span>
+	</body>
+</html>
