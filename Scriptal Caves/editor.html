@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<LINK REL=StyleSheet HREF="editorstyle.css" TYPE="text/css" />
+		<script type="text/javascript" src="editor.js"></script>
+	</head>
+	<body onload="createGame ();">
+		<table cellspacing="10" cellpadding="0" border="1">
+			<tr>
+				<td valign="top">
+					<table id="mapTable" cellspacing="0" cellpadding="0">
+					</table>
+				</td>       
+				<td valign="top">
+					<table id="editTable" cellspacing="0" cellpadding="0" class="editTable">
+					</table>
+				</td>
+				<td rowspan="2">
+					<div style="height: 350px; width: 190px; overflow: auto;">
+						<table id="tileset" cellspacing="0" cellpadding="0" class="editTable">
+						</table>
+						<input type="button" value="Clear" onclick="tile = 0;"/>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" valign="top">
+					<table>
+						<tr>
+							<td><input type="button" value="Background" /></td>
+							<td><input type="button" value="Layer 1" /></td>
+							<td><input type="button" value="Layer 2 (Main)" /></td>
+							<td><input type="button" value="Layer 3" /></td>
+							<td><img src="" id="tilePrev" /></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

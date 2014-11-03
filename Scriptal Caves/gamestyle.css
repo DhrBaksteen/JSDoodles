@@ -1,0 +1,23 @@
+body {
+	background-color: A8A8A8;
+	background-image: url(tiles/913.gif);
+	color: #FFFFFF;
+}
+
+div.gameCanvas {
+	position: absolute;
+	border: inset 3px #FCFCFC;
+}
+
+td.mapCell {
+	background-color: #000000;
+	background-size: 100%;
+	width: 16;
+	height: 16px;
+}
+
+img.tile {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
